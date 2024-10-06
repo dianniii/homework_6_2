@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .container {
+    padding: 20px;
+} */
+a{
+    text-decoration: none;
+}   
+.header{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr;
+    background-color: #EDE6DD;
+    width: 100%;
+}
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    align-items: center;
+}
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 50px 100px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14pt;
+}
+.link{
+    margin: auto;
+    color: #1E1928;
+    font-size: 14pt;
+}
+.icon{
+    display: grid;
+    margin: 0px 100px;
+}
+
+
+.section2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.text{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 10px 100px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14pt;
+}
+h1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin: 50px 100px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48pt;
+}
+/* форма */
+.number{
+    position: relative;
+    border-radius: 20px;  /* скругление формы */
+    max-width: 424px;  /* ширина формы */
+    padding: 10px 20px; 
+    background-color: #FFFFFF;  /* цвет формы */
+    margin: 20px 0;
+    }
+.form{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 0px 100px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10pt;
+}
+input::placeholder{
+    color: gray;
+}
+.submit-button {
+    position: absolute; /* положение кнопки относительно формы */
+    left: 50%; 
+    top: 5px; /* Положение кнопки относительно формы */
+    transform: translateX(15%); /* Центрируем кнопку */
+    padding: 10px 30px; 
+    border: none; 
+    border-radius: 20px; 
+    background-color: #1E1928;
+    color: #F4EFE9; /* Цвет текста */
+    /* font-size: 16px; */
+    cursor: pointer; /* Указатель курсора на кнопку */
+}
+input {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.submit-button:hover {
+    background-color: #3d3b47
+}
+
+.img{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin:auto;
+    padding: auto;
+}
+
